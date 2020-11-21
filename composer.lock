@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9cedb969d0cefb1525f8da74e0e00812",
+    "packages": [
+        {
+            "name": "equites/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LausEquites/Core.git",
+                "reference": "d9dbdb2b25bd582a05338d5450b1561f71f304dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LausEquites/Core/zipball/d9dbdb2b25bd582a05338d5450b1561f71f304dc",
+                "reference": "d9dbdb2b25bd582a05338d5450b1561f71f304dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Core\\": "src/Core"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Laus Brandt"
+                }
+            ],
+            "description": "Core framework",
+            "time": "2020-09-15T14:33:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "equites/core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

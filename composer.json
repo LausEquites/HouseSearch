@@ -1,0 +1,13 @@
+{
+  "require": {
+    "equites/core": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+      "app/backend/HouseSearch/"
+    ],
+    "psr-4": {
+      "HouseSearch\\":"app/backend/HouseSearch/"
+    }
+  }
+}
