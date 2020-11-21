@@ -2,7 +2,7 @@
 
 include __DIR__ . "/../../vendor/autoload.php";
 
-define('APP_ROOT', __DIR__ . "/..");
+define('APP_ROOT', realpath(__DIR__ . "/.."));
 
 
 header('Access-Control-Allow-Origin: *');
